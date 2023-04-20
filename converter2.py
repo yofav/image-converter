@@ -77,7 +77,7 @@ def first():
             if not os.path.exists(Png_dir):
                 os.mkdir(Png_dir)
 
-            thumb_filepath = os.path. join(Png_dir, png_file + " png")
+            thumb_filepath = os.path. join(Png_dir, png_filename + " png")
 
 
             while os.path.exists(png_filepath):
